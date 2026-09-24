@@ -4,7 +4,7 @@ import json
 file=Path("my_fav_apps.json")
 
 if not file.exists():
-    apps = [
+    apps=[
         {"name": "Instagram", "category": "Social Media"},
         {"name": "Spotify", "category": "Music"},
         {"name": "Zomato", "category": "Food Delivery"}
